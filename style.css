@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    position: fixed;
+}
+.carousel-inner img{
+    height: 80vh;
+}
+.carousel{
+    margin-bottom: 100px;
+}
+.circle{
+    width: 10rem;
+    height: 10rem;
+    background: gray;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 78px;
+}
+.circle2{
+    width: 10rem;
+    height: 10rem;
+    background: gray;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 73px;
+}
+.circle3{
+    width: 10rem;
+    height: 10rem;
+    background: gray;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 40px;
+}
+.father{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    color: gray;
+    margin-bottom: 100px;
+}
+.on{
+    width: 500px;
+    height: 500px;
+    background: rgb(190, 190, 190);
+}
+.cap{
+    margin-top: 155px;
+}
+.papa{
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+.chap{
+    width: 350px;
+    height: 500px;
+    background: rgb(190, 190, 190);
+}
+.ong{
+    margin-top: 155px;
+}
+@media (max-width:768px){
+    .circle{
+        margin-left: 40px;
+    }
+    .circle2{
+        margin-left: 40px;
+    }
+    .circle3{
+        margin-left: 20px;
+    }
+}
+@media (max-width:500px){
+    .father{
+        display: block;
+    }
+    .circle{
+        margin-left: 100px;
+    }
+    .circle2{
+        margin-left: 100px;
+        margin-top: 40px;
+    }
+    .circle3{
+        margin-top: 40px;
+        margin-left: 90px;
+    }
+    .papas{
+        display: block;
+    }
+}
